@@ -1,0 +1,75 @@
+body{
+	color: white;
+	background-color: black;
+	min-height: 100vh;
+	min-width: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-style: solid;
+	border-color: green;
+}
+img{
+	margin-top: 15px;
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+table, td, th{
+	border-color: green;
+	min-width: 120px;
+}
+h1{
+	color: #034da2;
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+a{
+	color: green;
+	text-decoration: none ;
+	background-color: black;
+	border-radius: 5px;
+	border-style: solid;
+	padding: 5px;
+}
+a:hover{
+	color: black;
+	background-color: green;
+}
+.retirada{
+	color: red;
+}
+.deposito{
+	color: lightgreen;
+}
+.btn{
+	color: green;
+	text-decoration: none ;
+	background-color: black;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: green;
+	padding: 5px;
+}
+.btn:hover{
+	color: black;
+	background-color: green;
+}
+.input{
+	color:  white;
+	text-decoration: none ;
+	background-color: black;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: green;
+	padding: 5px;
+}
+hr{
+	width: 100%;
+}
